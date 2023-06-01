@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+}
+header{
+	background-color:#fff159;
+	height:	80px;
+	display: flex;
+	justify-content: center
+
+}
+
+.general{
+	width: 90%;
+	height: 90px;
+	
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 40px 40px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.logo>img{
+	width: 60%;
+	height: 90%;
+	margin-left: 30px;
+}
+.segundo{
+	display: flex;
+	align-items: center;
+}
+.texto_d_logo{
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.header_boton{
+	width: 300px;
+	height: 25px;
+	background-color: #fff159;
+
+}
+
+
+.usuario_mas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+/*Cuerpo de la pagina*/
+
+
+
+article{
+	max-width: 80%;
+	height: 2000px;
+	background-color:;
+	border-bottom: 1px black solid;
+}
+.cajaBuscador{
+	border-radius: 10px;
+	width: 500px;
+	height: 30px;
+	border: 0;
+	border-bottom:1px black solid;
+
+}
+
+article>.divBuscador>p{
+	font-size: 20px;
+}
+.divBuscador{
+	width: 80%;
+	height: 40px;
+	margin-left: 40px;
+	display: flex;
+
+}
+
+
+
+.cajaProducto{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	border: solid 1px;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px;
+}
+
+.cajaProducto>img{
+	width: 100px;
+	height: 100px;
+}
+.productos{
+	margin-top: 20px;
+	max-width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+footer{
+	max-width: 100%;
+	height: 150px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}

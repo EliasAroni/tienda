@@ -1,0 +1,185 @@
+body{
+	margin: 0px;
+}
+header{
+	background-color:#fff159;
+	height:	80px;
+	display: flex;
+	justify-content: center
+
+}
+
+.general{
+	width: 90%;
+	height: 90px;
+	
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 40px 40px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.logo>img{
+	width: 60%;
+	height: 90%;
+	margin-left: 30px;
+}
+.segundo{
+	display: flex;
+	align-items: center;
+}
+.texto_d_logo{
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.header_boton{
+	width: 300px;
+	height: 25px;
+	background-color: #fff159;
+
+}
+.usuario_mas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+
+
+/* Cuerpo de la pagina*/
+
+article{
+	max-width: 80%;
+	height: 500px;
+	background-color:;
+	border-bottom: 1px black solid;
+}
+
+.tituloArticle{
+	margin: 0px;
+	padding: 20px;
+	font-size: 100px;
+
+
+	text-shadow: 5px 5px 10px #2DC09E ;
+
+	animation-name: bounce 1s infinite alternate;
+	-webkit-animation:bounce 1s infinite alternate;
+}
+
+@keyframes bounce{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(-15px);
+	}
+	
+}
+
+@-webkit-keyframes bounce{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(-15px);
+	}
+}
+.divBotonEmpezar{
+	max-width: 80%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.botonEmpezar{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	overflow: hidden;
+	transition: .3s ease-in-out all;
+	font-weight: ;
+	background-color: black;
+	color: white;
+}
+span{
+	z-index: 2;
+	position: relative;
+	transition: .3s ease-in-out all;
+}
+
+.botonEmpezar:after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #c4b107;
+	position: absolute;
+	z-index: 1;
+	right:-450px;
+	top: 100px;
+	transition: .3s ease-in-out all;
+
+}
+
+.botonEmpezar:hover:after{
+	right: 0;
+	top: 0;
+}
+
+.divArticleSubtitulo{
+	max-width: 80%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+section{
+	margin-top: 10px;
+	height:200px;
+	max-width:80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+section>div{
+	height: 150px;
+	width: 300px;
+	background-color:#FAD7A0 ;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #C0392B;
+}
+footer{
+	max-width: 100%;
+	height: 150px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+footer>div{
+	height: 150px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
